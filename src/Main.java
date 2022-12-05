@@ -101,7 +101,7 @@ public class Main {
         System.out.println("Задача 8");
 
         int yearComets = 2022;
-        for ( int i = 0; i <= 3000; i += 79 ) {
+        for ( int i = 0; i <= yearComets + 100; i += 79 ) {
             if ( i >= yearComets - 200 && i <= yearComets + 100 ) {
                 System.out.println( i );
             }
