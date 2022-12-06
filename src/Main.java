@@ -78,9 +78,9 @@ public class Main {
         System.out.println("Задача 6");
 
         int total = 15000;
-        for ( int i = 0; i <= 12*9; i++ ) {
+        for ( int i = 1; i <= 12*9; i++ ) {
             total = total + (total*7/100);
-            if ( i % 1 == 6 ) {
+            if ( i % 6 == 0 ) {
                 System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
             }
         }
